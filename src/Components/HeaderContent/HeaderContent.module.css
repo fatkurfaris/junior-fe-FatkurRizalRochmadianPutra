@@ -1,0 +1,37 @@
+.background {
+    background-image: url("https://static.tvmaze.com/uploads/images/original_untouched/191/478539.jpg");
+    padding-bottom: 900px;
+    /* width: 100px;
+    
+    height: 70px;
+    justify-content: space-between; */
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    /* gap: 3rem; */
+}
+
+.Nav2 {
+    display: flex;
+    gap: 1rem;
+}
+
+.text1 {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
