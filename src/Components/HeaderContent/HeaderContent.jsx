@@ -28,10 +28,14 @@ export default function HeaderContent(props) {
                             type="text"
                             placeholder="Fatkur Rizal"
                         />
-                        <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                     </Form.Group>
                     <h6 className={style.text1}><b>Fatkur Rizal Rochmadian Putra</b></h6>
                 </div>
+            </div>
+            <div>
+                <a href={state ? state.data[1].show.image.original : null} target="_blank">
+                    <h6 className={style.text2}>{state ? state.data[1].show.image.original : null}</h6>
+                </a>
             </div>
         </div >
 

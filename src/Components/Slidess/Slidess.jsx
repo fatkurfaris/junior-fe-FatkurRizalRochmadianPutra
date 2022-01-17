@@ -37,7 +37,8 @@ export default function Slidess(props) {
                                             <Card.Body>
                                                 <Card.Title>{item ? item.show.name : null}</Card.Title>
                                                 <Card.Text>
-                                                    {item ? item.show.image.medium : null}
+                                                    <a href={item ? item.show.image.original : null} target="_blank">{item ? item.show.image.original : null}</a>
+
                                                 </Card.Text>
                                                 <Button variant="primary" className={style.But}>
                                                     <Link className={style.Text} to={`/Details/${index}`}>See Details</Link>
@@ -72,7 +73,7 @@ export default function Slidess(props) {
                                             <Card.Body>
                                                 <Card.Title>{item ? item.show.name : null}</Card.Title>
                                                 <Card.Text>
-                                                    {item ? item.show.image.medium : null}
+                                                    <a href={item ? item.show.image.original : null} target="_blank">{item ? item.show.image.original : null}</a>
                                                 </Card.Text>
                                                 <Button variant="primary" className={style.But}>
                                                     <Link className={style.Text} to={`/Details/${index}`}>See Details</Link>
